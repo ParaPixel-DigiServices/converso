@@ -33,8 +33,8 @@ const SubjectFilter = () => {
         value: subject,
       });
     }
-    router.push(newUrl, { scroll: false });
-  }, [subject]);
+    router.push(`/companions?${newUrl}`, { scroll: false });
+  }, [subject, router, searchParams]);
 
   return (
     <Select onValueChange={setSubject} value={subject}>

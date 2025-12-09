@@ -22,7 +22,7 @@ const SearchInput = () => {
           value: searchQuery,
         });
 
-        router.push(newUrl, { scroll: false });
+        router.push(`${pathname}?${newUrl}`, { scroll: false });
       } else {
         if (pathname === "/companions") {
           const newUrl = removeKeysFromUrlQuery({
@@ -30,10 +30,12 @@ const SearchInput = () => {
             keysToRemove: ["topic"],
           });
 
-          router.push(newUrl, { scroll: false });
+          router.push(`${pathname}?${newUrl}`, { scroll: false });
         }
       }
     }, 500);
+
+    return () => clearTimeout(delayDebounceFn);
   }, [searchQuery, router, searchParams, pathname]);
 
   return (
