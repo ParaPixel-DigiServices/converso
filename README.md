@@ -1,168 +1,348 @@
 <div align="center">
-  <br />
-    <a href="https://www.youtube.com/watch?v=XUkNR-JfHwo" target="_blank">
-      <img src="public/readme/hero.png" alt="Project Banner">
-    </a>
-  <br />
 
-  <div>
-    <img src="https://img.shields.io/badge/-Next.JS-black?style=for-the-badge&logoColor=white&logo=nextdotjs&color=black" alt="next.js" />
-    <img src="https://img.shields.io/badge/-Vapi-black?style=for-the-badge&logoColor=white&logo=vapi.com&color=green" alt="next.js" />
-    <img src="https://img.shields.io/badge/-Tailwind-00BCFF?style=for-the-badge&logo=tailwind-css&logoColor=white" />
-  </div>
+# 🎓 Converso
 
-  <h3 align="center">SaaS App - LMS with Next.js, Supabase & Payments</h3>
+### AI-Powered Real-Time Teaching Platform
 
-   <div align="center">
-     Build this project step by step with our detailed tutorial on <a href="https://www.youtube.com/watch?v=XUkNR-JfHwo" target="_blank"><b>JavaScript Mastery</b></a> YouTube. Join the JSM family!
-    </div>
+[![Next.js](https://img.shields.io/badge/Next.js-15.3.2-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
+[![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react)](https://react.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind-4-38B2AC?style=for-the-badge&logo=tailwind-css)](https://tailwindcss.com/)
+
+[![Supabase](https://img.shields.io/badge/Supabase-Database-3ECF8E?style=for-the-badge&logo=supabase)](https://supabase.com/)
+[![Clerk](https://img.shields.io/badge/Clerk-Auth-6C47FF?style=for-the-badge&logo=clerk)](https://clerk.com/)
+[![OpenAI](https://img.shields.io/badge/OpenAI-GPT--4-412991?style=for-the-badge&logo=openai)](https://openai.com/)
+[![VAPI](https://img.shields.io/badge/VAPI-AI%20Voice-FF6B6B?style=for-the-badge)](https://vapi.ai/)
+
+**Create custom AI tutors • Voice-based learning • Real-time interaction**
+
+[Getting Started](#-getting-started) • [Features](#-features) • [Tech Stack](#️-tech-stack) • [Documentation](#-how-it-works)
+
 </div>
 
-## 📋 <a name="table">Table of Contents</a>
+---
 
-1. 🤖 [Introduction](#introduction)
-2. ⚙️ [Tech Stack](#tech-stack)
-3. 🔋 [Features](#features)
-4. 🤸 [Quick Start](#quick-start)
-5. 🔗 [Assets](#links)
-6. 🚀 [More](#more)
+## 🎯 Overview
 
-## 🚨 Tutorial
+> **Converso** transforms education through AI-powered voice companions that deliver personalized tutoring sessions. Learn any subject through natural voice conversations with intelligent AI tutors.
 
-This repository contains the code corresponding to an in-depth tutorial available on our YouTube channel, <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a>.
-
-If you prefer visual learning, this is the perfect resource for you. Follow our tutorial to learn how to build projects like these step-by-step in a beginner-friendly manner!
-
-<a href="https://www.youtube.com/watch?v=XUkNR-JfHwo" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/1736fca5-a031-4854-8c09-bc110e3bc16d" /></a>
-
-## <a name="introduction">🤖 Introduction</a>
-
-Create an LMS SaaS app from scratch featuring user authentication, subscriptions, and payments using Next.js, Supabase, and Stripe! You'll build and deploy a real-time teaching platform with Vapi, integrate an AI vocal agent, and deliver seamless, interactive learning sessions.
-
-If you're getting started and need assistance or face any bugs, join our active Discord community with over **50k+** members. It's a place where people help each other out.
-
-<a href="https://discord.com/invite/n6EdbFJ" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/618f4872-1e10-42da-8213-1d69e486d02e" /></a>
-
-## <a name="tech-stack">⚙️ Tech Stack</a>
-
-- **[Clerk](https://jsm.dev/converso-clerk)** is a unified platform for authentication, user management, and billing. It offers embeddable UI components, flexible APIs, and admin dashboards for secure user management. Clerk also simplifies subscription management, allowing you to define plans, create pricing pages, and control access based on subscription tiers—all in one solution.
-
-* **[Next.js](https://nextjs.org/)** is a powerful React framework that enables the development of fast, scalable web applications with features like server-side rendering, static site generation, and API routes for building full-stack applications.
-
-* **[Sentry](https://jsm.dev/converso-sentry)** is an error tracking and performance monitoring tool that helps developers fix bugs faster by providing real-time alerts, stack traces, and performance insights.
-
-* **[shadcn/ui](https://ui.shadcn.com/)** is a customizable component library built on Radix UI and Tailwind CSS. It offers a modern, accessible design system with pre-built components that are easy to theme and extend, making it ideal for building polished UIs with minimal effort.
-
-- **[Supabase](https://supabase.com/)** is an open-source backend-as-a-service platform that provides instant APIs, real-time subscriptions, authentication, storage, and a PostgreSQL database, enabling developers to build scalable and secure applications with ease.
-
-* **[Tailwind CSS](https://tailwindcss.com/)** is a utility-first CSS framework that allows developers to design custom user interfaces by applying low-level utility classes directly in HTML, streamlining the design process.
-* **[TypeScript](https://www.typescriptlang.org/)** is a superset of JavaScript that adds static typing, providing better tooling, code quality, and error detection for developers, making it ideal for building large-scale applications.
-
-- **[Vapi](https://jsm.dev/converso-vapi)** is a developer-centric voice AI platform that enables the creation of conversational voice agents with low-latency voice interactions, speech-to-text, and text-to-speech capabilities. It supports multilingual conversations, customizable voices, and seamless integration with various AI models and tools.
-
-* **[Zod](https://zod.dev/)** is a TypeScript-first schema validation library that provides a simple and expressive way to define and validate data structures. Zod ensures data integrity by catching errors early during development.
-
-## <a name="features">🔋 Features</a>
-
-👉 **AI Voice Agents**: Take tutoring sessions with voiced AIs specializing in the topics you want to get better at.
-
-👉 **Authentication**: Secure user sign-up and sign-in with Clerk; Google authentication and many more.
-
-👉 **Billing & Subscriptions**: Easily manage plans, upgrades, and payment details.
-
-👉 **Bookmarks and Session History**: Let users organise their learning by bookmarking tutors and accessing previous sessions.
-
-👉 **Code Reusability**: Leverage reusable components and a modular codebase for efficient development.
-
-👉 **Create a Tutor**: Create your own AI tutors, choosing a subject, topic, and style of conversation.
-
-👉 **Cross-Device Compatibility**: Fully responsive design that works seamlessly across all devices.
-
-👉 **Database Integration**: Uses Supabase for real-time data handling and storage needs.
-
-👉 **Modern UI/UX**: Clean, responsive design built with Tailwind CSS and shadcn/ui for a sleek user experience.
-
-👉 **Scalable Tech Stack**: Built with Next.js for a fast, production-ready web application that scales seamlessly.
-
-👉 **Search Functionality**: Find tutors quickly with robust filters and search bar.
-
-and many more, including code architecture and reusability.
-
-## <a name="quick-start">🤸 Quick Start</a>
-
-Follow these steps to set up the project locally on your machine.
-
-**Prerequisites**
-
-Make sure you have the following installed on your machine:
-
-- [Git](https://git-scm.com/)
-- [Node.js](https://nodejs.org/en)
-- [npm](https://www.npmjs.com/) (Node Package Manager)
-
-**Cloning the Repository**
-
-```bash
-git clone https://github.com/adrianhajdin/saas-app.git
-cd saas-app
+```
+🎤 Voice-First Learning  →  🤖 AI-Powered Tutors  →  📊 Track Progress
 ```
 
-**Installation**
+## ✨ Features
 
-Install the project dependencies using npm:
+<table>
+<tr>
+<td width="50%">
+
+### 🎓 AI Voice Companions
+
+- 🎤 Real-time voice conversations
+- 📚 Math • Science • Language • History • Coding • Economics
+- 🎭 Male/Female voices • Casual/Formal styles
+- 🧠 Adaptive teaching methods
+
+### 👤 User Management
+
+- 🔐 Clerk authentication
+- 📊 Progress dashboards
+- 📝 Session history
+- ⭐ Bookmark favorites
+
+</td>
+<td width="50%">
+
+### 📚 Companion Library
+
+- 🔍 Browse & search AI tutors
+- 🎨 Create custom companions
+- 🏷️ Filter by subject/topic
+- 🎯 Tiered permissions (3/10/unlimited)
+
+### 📊 Analytics
+
+- ✅ Lessons completed
+- ⏱️ Time tracking
+- 🚀 Learning journey
+- 🔄 Recent sessions
+
+</td>
+</tr>
+</table>
+
+## 🛠️ Tech Stack
+
+<table>
+<tr>
+<td align="center" width="33%">
+
+### Frontend
+
+![Next.js](https://img.shields.io/badge/Next.js-15.3.2-black?logo=next.js)
+![React](https://img.shields.io/badge/React-19-61DAFB?logo=react)
+![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript)
+![Tailwind](https://img.shields.io/badge/Tailwind-4-38B2AC?logo=tailwind-css)
+
+Radix UI • React Hook Form
+Zod • Lottie React
+
+</td>
+<td align="center" width="33%">
+
+### Backend
+
+![Supabase](https://img.shields.io/badge/Supabase-PostgreSQL-3ECF8E?logo=supabase)
+![Clerk](https://img.shields.io/badge/Clerk-Auth-6C47FF?logo=clerk)
+
+Server Actions
+Row Level Security
+
+</td>
+<td align="center" width="33%">
+
+### AI Services
+
+![OpenAI](https://img.shields.io/badge/OpenAI-GPT--4-412991?logo=openai)
+![VAPI](https://img.shields.io/badge/VAPI-Voice-FF6B6B)
+
+ElevenLabs Voice
+Deepgram Transcription
+WebSocket Streaming
+
+</td>
+</tr>
+</table>
+
+## 📁 Project Structure
+
+```
+converso-test/
+├── app/                          # Next.js app router pages
+│   ├── companions/               # Companion-related pages
+│   │   ├── page.tsx             # Companion library
+│   │   ├── new/page.tsx         # Create new companion
+│   │   └── [id]/page.tsx        # Companion session page
+│   ├── my-journey/              # User profile and progress
+│   ├── subscription/            # Subscription management
+│   └── api/                     # API routes
+├── components/                   # React components
+│   ├── CompanionComponent.tsx   # Main voice interaction component
+│   ├── CompanionForm.tsx        # Companion creation form
+│   ├── CompanionCard.tsx        # Companion display card
+│   ├── CompanionsList.tsx       # List of companions
+│   ├── Navbar.tsx               # Navigation bar
+│   └── ui/                      # Reusable UI components
+├── lib/                         # Utility functions and services
+│   ├── actions/                 # Server actions
+│   │   └── companion.actions.ts # Companion CRUD operations
+│   ├── supabase.ts              # Supabase client setup
+│   ├── vapi.sdk.ts              # VAPI AI SDK initialization
+│   └── utils.ts                 # Helper functions
+├── types/                       # TypeScript type definitions
+│   ├── index.d.ts               # Core types
+│   └── vapi.d.ts                # VAPI-specific types
+└── constants/                   # Application constants
+    ├── index.ts                 # Subject colors, voices, etc.
+    └── soundwaves.json          # Lottie animation data
+```
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js 20+
+- npm/yarn/pnpm
+- Supabase account
+- Clerk account
+- VAPI AI account
+- OpenAI API access
+- ElevenLabs API access (for voice synthesis)
+
+### Environment Variables
+
+Create a `.env.local` file in the root directory:
+
+```env
+# Clerk Authentication
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
+CLERK_SECRET_KEY=your_clerk_secret_key
+NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
+
+# Supabase
+NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
+NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
+
+# VAPI AI
+NEXT_PUBLIC_VAPI_WEB_TOKEN=your_vapi_web_token
+
+# Sentry (Optional)
+SENTRY_AUTH_TOKEN=your_sentry_auth_token
+```
+
+### Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/ParaPixel-DigiServices/converso.git
+cd converso
+```
+
+2. Install dependencies:
 
 ```bash
 npm install
 ```
 
-**Set Up Environment Variables**
+3. Set up Supabase database with the following tables:
 
-Create a new file named `.env` in the root of your project and add the following content:
+   - `companions`: Stores AI companion configurations
+   - `session_history`: Tracks completed learning sessions
+   - `bookmarks`: User bookmarks for companions
 
-```env
-# Sentry
-SENTRY_AUTH_TOKEN=
-
-# Vapi
-NEXT_PUBLIC_VAPI_WEB_TOKEN=
-
-# Clerk
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
-CLERK_SECRET_KEY=
-NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
-NEXT_PUBLIC_CLERK_SIGN_IN_FALLBACK_REDIRECT_URL=/
-NEXT_PUBLIC_CLERK_SIGN_UP_FALLBACK_REDIRECT_URL=/
-
-# Supabase
-NEXT_PUBLIC_SUPABASE_URL=
-NEXT_PUBLIC_SUPABASE_ANON_KEY=
-```
-
-Replace the placeholder values with your actual ImageKit, NeonDB, Upstash, and Resend credentials. You can obtain these credentials by signing up on: [Supabase](https://supabase.com/dashboard), [Clerk](https://jsm.dev/converso-clerk), [Sentry](https://jsm.dev/converso-sentry), [Vapi](https://jsm.dev/converso-vapi).
-
-**Running the Project**
+4. Run the development server:
 
 ```bash
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) in your browser to view the project.
+5. Open [http://localhost:3000](http://localhost:3000) in your browser
 
-## <a name="links">🔗 Assets</a>
+## 📖 How It Works
 
-Assets and snippets used in the project can be found in the **[video kit](https://jsm.dev/converso-kit)**.
+### Creating a Companion
 
-<a href="https://jsm.dev/converso-kit" target="_blank">
-  <img src="public/readme/videokit.jpg" alt="Video Kit Banner">
-</a>
+1. Navigate to `/companions/new`
+2. Fill in the companion form:
+   - Name: Give your AI tutor a name
+   - Subject: Select from available subjects
+   - Topic: Specify what you want to learn
+   - Voice: Choose male or female
+   - Style: Select casual or formal teaching style
+   - Duration: Set session length (minutes)
+3. Submit to create your personalized AI tutor
 
-## <a name="more">🚀 More</a>
+### Starting a Learning Session
 
-**Advance your skills with Next.js Pro Course**
+1. Browse the companion library or select from your created companions
+2. Click on a companion card to start a session
+3. Click "Start Session" to initiate voice conversation
+4. The AI tutor will:
+   - Introduce the topic
+   - Break down concepts into manageable parts
+   - Check your understanding periodically
+   - Adapt based on your responses
+5. Use the microphone toggle to mute/unmute yourself
+6. View real-time transcripts of the conversation
+7. End the session when complete
 
-Enjoyed creating this project? Dive deeper into our PRO courses for a richer learning adventure. They're packed with
-detailed explanations, cool features, and exercises to boost your skills. Give it a go!
+### 🔄 Voice Interaction Flow
 
-<a href="https://jsm.dev/converso-nextjs" target="_blank">
-  <img src="public/readme/jsmpro.jpg" alt="Project Banner">
-</a>
+```text
+🎤 User Speech
+    ↓
+🔊 Deepgram (Transcription)
+    ↓
+📝 Text Transcript
+    ↓
+🤖 GPT-4 (AI Processing)
+    ↓
+💬 Response Text
+    ↓
+🎙️ ElevenLabs (Voice Synthesis)
+    ↓
+🔉 AI Voice Output
+    ↓
+👂 User Hears Response
+    ↓
+💾 Save to History
+```
+
+**Real-time WebSocket Connection • Natural Voice Conversation**
+
+## 🎨 Key Components
+
+| Component              | Purpose               | Features                                                                     |
+| ---------------------- | --------------------- | ---------------------------------------------------------------------------- |
+| **CompanionComponent** | Voice interaction hub | 🔴 Call states • 🎤 Mic controls • 📝 Live transcripts • 🎬 Animations       |
+| **CompanionForm**      | Companion creator     | 📋 Subject/topic • 🎭 Voice/style • ⏱️ Duration • ✅ Validation              |
+| **Server Actions**     | Backend operations    | 🔧 CRUD operations • 📚 Library queries • 📊 History tracking • ⭐ Bookmarks |
+
+## 📊 Database Schema
+
+```mermaid
+erDiagram
+    COMPANIONS ||--o{ SESSION_HISTORY : has
+    COMPANIONS ||--o{ BOOKMARKS : has
+
+    COMPANIONS {
+        uuid id PK
+        text name
+        enum subject
+        text topic
+        text voice
+        text style
+        int duration
+        text author
+    }
+
+    SESSION_HISTORY {
+        uuid id PK
+        uuid companion_id FK
+        text user_id
+        timestamp created_at
+    }
+
+    BOOKMARKS {
+        uuid id PK
+        uuid companion_id FK
+        text user_id
+        timestamp created_at
+    }
+```
+
+## 🔐 Authentication & Authorization
+
+| Feature               | Technology  | Details                            |
+| --------------------- | ----------- | ---------------------------------- |
+| 🔑 Authentication     | Clerk       | User sessions & sign-in/sign-up    |
+| 🛡️ Protected Routes   | Middleware  | Auth-required pages                |
+| 📦 Subscription Tiers | Clerk Plans | Free (3) • Standard (10) • Pro (∞) |
+
+## 🎯 Future Enhancements
+
+| Category          | Features                                                    |
+| ----------------- | ----------------------------------------------------------- |
+| 📈 **Analytics**  | Progress insights • Learning patterns • Performance metrics |
+| 🎓 **Assessment** | Quizzes • Tests • Certifications                            |
+| 🌍 **Expansion**  | Multi-language • Mobile app • Group sessions                |
+| 🎮 **Engagement** | Achievements • Badges • Learning paths • Gamification       |
+
+## 📝 Scripts
+
+```bash
+npm run dev          # Start development server with Turbopack
+npm run build        # Build for production
+npm run start        # Start production server
+npm run lint         # Run ESLint
+```
+
+---
+
+<div align="center">
+
+## 📝 License & Contact
+
+**Developed by [ParaPixel DigiServices](https://github.com/ParaPixel-DigiServices)**
+
+🤝 Contributions Welcome • 📧 Contact for Support
+
+---
+
+![Footer](https://img.shields.io/badge/Built%20with-❤️-green?style=for-the-badge)
+![Next.js](https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=next.js)
+![VAPI](https://img.shields.io/badge/VAPI-AI-FF6B6B?style=for-the-badge)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai)
+
+</div>
